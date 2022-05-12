@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>Congress</h1>
+            <button id="votecongress">Vote for Congress</button>
+        </div>
+        <div class="box2"><h1>BJP</h1>
+            <button id="votebjp">Vote for BJP</button></div>
+        <div class="box3"><h1>AAP</h1>
+            <button id="voteaap">Vote for AAP</button></div>
+        
+        
+    </div>
+    <button id="result" onclick="showResult()">Result</button>
+    <div id="showresult">
+        <p>Results Are:</p>
+        <p class="congressresult">Congress: <span id="congressresult">0</span></p>
+        <p class="bjpresult">BJP: <span id="bjpresult">0</span></p>
+        <p class="aapresult">AAP: <span id="aapresult">0</span></p>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
